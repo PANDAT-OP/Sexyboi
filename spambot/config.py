@@ -1,8 +1,8 @@
 import os
 
 class Config(object):
-    API_ID = int(os.environ.get("API_ID", None))
-    API_HASH = os.environ.get("API_HASH", None)
+    API_ID = "19385630"
+    API_HASH = "9121de4ccce25cc28b7e68bed9c87fdf"
     BOT_TOKEN1 = "5704604379:AAFflEwCQbcSPu83i8GNIpnufXOCo-igkJY"
     BOT_TOKEN2 = "5784094880:AAFBOu2RFotz4DVPcTIzSpWGKkW-IlLo56E"
     BOT_TOKEN3 = "6103984321:AAFjxzCW7-WLma_KRr3c8OhOtbHr4ijv05U"
