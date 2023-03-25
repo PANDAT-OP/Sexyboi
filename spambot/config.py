@@ -3,7 +3,7 @@ import os
 class Config(object):
     API_ID = int(os.environ.get("API_ID", None))
     API_HASH = os.environ.get("API_HASH", None)
-    BOT_TOKEN1 = os.environ.get("BOT_TOKEN1", None)
+    BOT_TOKEN1 = "5704604379:AAFflEwCQbcSPu83i8GNIpnufXOCo-igkJY"
     BOT_TOKEN2 = os.environ.get("BOT_TOKEN2", None)
     BOT_TOKEN3 = os.environ.get("BOT_TOKEN3", None)
     BOT_TOKEN4 = os.environ.get("BOT_TOKEN4", None)
