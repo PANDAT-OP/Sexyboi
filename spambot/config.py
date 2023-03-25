@@ -4,10 +4,10 @@ class Config(object):
     API_ID = int(os.environ.get("API_ID", None))
     API_HASH = os.environ.get("API_HASH", None)
     BOT_TOKEN1 = "5704604379:AAFflEwCQbcSPu83i8GNIpnufXOCo-igkJY"
-    BOT_TOKEN2 = os.environ.get("BOT_TOKEN2", None)
-    BOT_TOKEN3 = os.environ.get("BOT_TOKEN3", None)
-    BOT_TOKEN4 = os.environ.get("BOT_TOKEN4", None)
-    BOT_TOKEN5 = os.environ.get("BOT_TOKEN5", None)
+    BOT_TOKEN2 = "5784094880:AAFBOu2RFotz4DVPcTIzSpWGKkW-IlLo56E"
+    BOT_TOKEN3 = "6103984321:AAFjxzCW7-WLma_KRr3c8OhOtbHr4ijv05U"
+    BOT_TOKEN4 = "6091887039:AAHwDxhJm7Ic-tnoq1dQTypGQyADIEdRHwE"
+    BOT_TOKEN5 = "6154116526:AAHRbpdqj67msZnOuDoRPGQu0rWA8t_plvA"
     OWNER_ID = int(os.environ.get("OWNER_ID", None))
     OWNER_NAME = os.environ.get("OWNER_NAME", None)
     OWNER_USERNAME =os.environ.get("OWNER_USERNAME", None)
