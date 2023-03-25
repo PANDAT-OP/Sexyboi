@@ -11,8 +11,8 @@ class Config(object):
     OWNER_ID = "5934971921"
     OWNER_NAME = "℘ᕱƝᕲᕱƬ 「🇨🇦」"
     OWNER_USERNAME = "PANDAT_OP"
-    CO_OWNER_ID = set(int(x) for x in os.environ.get("CO_OWNER_ID", None).split())
-    SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", None).split())
+    CO_OWNER_ID = "6163642634"
+    SUDO_USERS = "609517172"
     HEROKU_APP_NAME = os.environ.get("HEROKU_APP_ID", None)
     HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
     DISPLAY_PIC = "https://te.legra.ph/file/593100d4573c9d9d9d2dc.jpg"
