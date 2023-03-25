@@ -8,7 +8,7 @@ class Config(object):
     BOT_TOKEN3 = "6103984321:AAFjxzCW7-WLma_KRr3c8OhOtbHr4ijv05U"
     BOT_TOKEN4 = "6091887039:AAHwDxhJm7Ic-tnoq1dQTypGQyADIEdRHwE"
     BOT_TOKEN5 = "6154116526:AAHRbpdqj67msZnOuDoRPGQu0rWA8t_plvA"
-    OWNER_ID = int(os.environ.get("OWNER_ID", None))
+    OWNER_ID = "5934971921"
     OWNER_NAME = os.environ.get("OWNER_NAME", None)
     OWNER_USERNAME =os.environ.get("OWNER_USERNAME", None)
     CO_OWNER_ID = set(int(x) for x in os.environ.get("CO_OWNER_ID", None).split())
