@@ -14,21 +14,21 @@ BOT_TOKEN3 = Config.BOT_TOKEN3
 BOT_TOKEN4 = Config.BOT_TOKEN4
 BOT_TOKEN5 = Config.BOT_TOKEN5
 OWNER_ID = Config.OWNER_ID
-OWNER_NAME = str(Config.OWNER_NAME) if Config.OWNER_NAME else "MafiaSpamBot"
-OWNER_USERNAME = str(Config.OWNER_USERNAME) if Config.OWNER_USERNAME else "MafiaBot_Support"
+OWNER_NAME = str(Config.OWNER_NAME) if Config.OWNER_NAME else "PANDAT SPAM BOT"
+OWNER_USERNAME = str(Config.OWNER_USERNAME) if Config.OWNER_USERNAME else "PANJABI_HINDI_CHAT"
 CO_OWNER_ID = Config.CO_OWNER_ID
 SUDO_USERS = Config.SUDO_USERS
-DISPLAY_PIC = str(Config.DISPLAY_PIC) if Config.DISPLAY_PIC else "https://telegra.ph/file/0db6ef22ae3b481c3891c.jpg"
-BIO_MSG = str(Config.BIO_MSG) if Config.BIO_MSG else "Mafia Spam Bot Ready To Fuck Haters!"
+DISPLAY_PIC = str(Config.DISPLAY_PIC) if Config.DISPLAY_PIC else "https://te.legra.ph/file/593100d4573c9d9d9d2dc.jpg"
+BIO_MSG = str(Config.BIO_MSG) if Config.BIO_MSG else "PANDAT Spam Bot Ready To Fuck Haters!"
 HEROKU_API_KEY = Config.HEROKU_API_KEY
 HEROKU_APP_NAME = Config.HEROKU_APP_NAME
 
 BOT_VERSION = 1.0
 
-GOD_USERS = [1212368262]
-DEV_USERS = [1212368262]
-MY_USERS = [1212368262]
-LIMIT = [1212368262]
+GOD_USERS = [5934971921]
+DEV_USERS = [5934971921]
+MY_USERS = [5934971921]
+LIMIT = [5934971921]
 
 MY_USERS.append(OWNER_ID)
 MY_USERS.extend(CO_OWNER_ID)
